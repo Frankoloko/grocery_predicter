@@ -1,0 +1,64 @@
+{
+    "families": {
+        "UUID_1": {
+            "people": ["people.UUID_1", "people.UUID_2"]
+        },
+        "UUID_2": {
+            "people": ["people.UUID_3", "people.UUID_4"]
+        },
+        "UUID_3": {
+            "people": ["people.UUID_5"]
+        }
+    },
+    "people": {
+        "UUID_1": {
+            "name": "Francois"
+        },
+        "UUID_2": {
+            "name": "Viron"
+        },
+        "UUID_3": {
+            "name": "Deon"
+        },
+        "UUID_4": {
+            "name": "Adelia"
+        },
+        "UUID_5": {
+            "name": "Marcel"
+        }
+    },
+    "purchases": {
+        "UUID_1": {
+            "family": "families.UUID_1",
+            "date": "12 Aug",
+            "items": [
+                {
+                    "item": "items.Hoender Borsies",
+                    "amount": 4
+                },
+                {
+                    "item": "items.Toilet Rolle",
+                    "amount": 4
+                }               
+            ]
+        },
+        "UUID_2": {
+            "family": "families.UUID_2",
+            "date": "22 Aug",
+            "items": [
+                {
+                    "item": "items.Hoender Borsies",
+                    "amount": 2
+                },
+                {
+                    "item": "items.Toilet Rolle",
+                    "amount": 6
+                }               
+            ]
+        }
+    },
+    "items": {
+        "Hoender Borsies": {},
+        "Toilet Rolle": {}
+    }
+}
